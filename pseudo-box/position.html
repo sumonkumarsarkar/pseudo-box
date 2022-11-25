@@ -6,7 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>position</title>
 </head>
+
+<style>
+    .swimning{
+        position: relative;
+        height: 600px;
+        width: 800px;
+        border: 2px solid orchid;
+    }
+    .swimning div{
+        border: 1px solid red;
+        width: 200px; 
+    }
+#ring{
+    position:absolute;
+    left:0px;
+    top: 0px;
+}
+#boy{
+    position:absolute;
+    left:0px;
+    top: 0px;
+    z-index: 3;
+}
+#water{
+    position:absolute;
+    left:0px;
+    top: 0px;
+
+}
+</style>
 <body>
-    
+    <section>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h1>Molestias nemo delectus iusto corrupti.</h1>
+        <h1>Expedita iure iusto quia rerum.</h1>
+    </section>
+    <div class="swimning">
+        <div><img id="boy" src="./images/boy.svg" alt=""></div>
+        <div><img id="ring" src="./images/ring.svg" alt=""></div>
+        <div><img id="water" src="./images/water.svg" alt=""></div>
+    </div>
 </body>
 </html>
